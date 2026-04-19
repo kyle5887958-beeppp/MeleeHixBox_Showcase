@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*核心功能：處理近戰武器的物理判定與受擊邏輯。
+/*功能：處理近戰武器的物理判定與受擊邏輯。
  備註：
  1. 使用 CapsuleCast 搭配上一幀座標快照，解決高速揮劍時的穿透問題。
  2. 整合 IDamageable 介面與 HitStop 停頓感，目前彈刀邏輯先寫死在 Shield Layer 判定。*/
